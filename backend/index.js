@@ -4,4 +4,6 @@ const products = require("./data.json")
 app.get('/products', (req, res)=>{
     res.json(products)
 })
-app.listen(3000)
+app.listen(3000, ()=>{
+    console.log('Listening on 3000')
+})
