@@ -1,7 +1,8 @@
-const express = require('express')
+const express = require('express');
+const getRandomProducts = require('./data');
 const app = express();
-const products = require("./data.json")
 app.get('/products', (req, res)=>{
+    const products = getRandomProducts();
     res.json(products)
 })
 app.listen(3000, ()=>{
