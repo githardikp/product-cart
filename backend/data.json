@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Wireless Bluetooth Earbuds",
+        "description": "Compact and lightweight earbuds with high-fidelity sound and 30-hour battery life.",
+        "price": 79.99
+    },
+    {
+        "id": 2,
+        "title": "Ultra HD 4K Monitor",
+        "description": "27-inch 4K UHD display with 144Hz refresh rate, ideal for gaming and creative work.",
+        "price": 389.99
+    },
+    {
+        "id": 3,
+        "title": "Ergonomic Mesh Office Chair",
+        "description": "Adjustable office chair with lumbar support, breathable mesh back, and padded seat.",
+        "price": 229.50
+    },
+    {
+        "id": 4,
+        "title": "Mechanical Gaming Keyboard",
+        "description": "RGB backlit keyboard with tactile mechanical switches and customizable macros.",
+        "price": 129.95
+    },
+    {
+        "id": 5,
+        "title": "Smart Fitness Watch",
+        "description": "Tracks heart rate, steps, sleep, and includes GPS and water resistance up to 50m.",
+        "price": 149.00
+    }
+]
