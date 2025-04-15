@@ -1,18 +1,18 @@
 [
     {
-        "id": 1,
+        "id": 6,
         "title": "Portable Espresso Maker",
         "description": "Compact and travel-friendly espresso machine for coffee lovers on the go.",
         "price": 89.99
     },
     {
-        "id": 2,
+        "id": 7,
         "title": "Noise-Cancelling Sleep Headphones",
         "description": "Soft, wireless headband headphones designed to help you sleep better with soothing sounds.",
         "price": 59.95
     },
     {
-        "id": 3,
+        "id": 8,
         "title": "LED Desk Lamp with Wireless Charging",
         "description": "Adjustable brightness desk lamp with built-in wireless phone charger and USB port.",
         "price": 45.00
