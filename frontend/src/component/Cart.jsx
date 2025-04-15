@@ -1,6 +1,9 @@
 import { useRef } from "react"
 
 export function Cart({ items = [], setItem }){
+    const removeItem = (itemId) => {
+        setItem(items.filter(item => item.id !== itemId));
+      }
     return(
         <div>
             <h2>Cart</h2>
@@ -9,7 +12,7 @@ export function Cart({ items = [], setItem }){
             ) : (
                 <>
                     {items.map((item) => (
-                        <ProductInCart key={item.id} item={item} />
+                        <ProductInCart key={item.id} item={item} onRemove={()=>removeItem(item.id)}/>
                     ))}
                     <button
                         onClick={()=>setItem([])}
@@ -20,16 +23,14 @@ export function Cart({ items = [], setItem }){
     )
 }
 
-function ProductInCart({ item}){
+function ProductInCart({ item, onRemove }){
     const itemRef = useRef();
     
     return (
         <div ref={itemRef}>
             <p>{item.title}</p>
             <button
-                onClick={()=>{
-                    itemRef.current.innerHTML=""
-                }}
+                onClick={onRemove}
             >remove</button>
         </div>
     )
